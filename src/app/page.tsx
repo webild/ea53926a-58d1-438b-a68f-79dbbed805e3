@@ -24,13 +24,13 @@ const App = () => {
           { title: 'Feature 1', description: 'Description for feature 1' },
           { title: 'Feature 2', description: 'Description for feature 2' },
           { title: 'Feature 3', description: 'Description for feature 3' },
-        ]} className="custom-class" gridClassName="grid grid-cols-1 md:grid-cols-3 gap-6" />
+        ]} className="custom-class" />
       </section>
       <section id="testimonials" className="bg-white py-18">
         <SimpleKPIBento items={[
           { value: 'Client A', description: '"Exceptional service!"' },
           { value: 'Client B', description: '"Highly recommend!"' },
-        ]} className="custom-class" gridClassName="grid grid-cols-1 md:grid-cols-2 gap-6" />
+        ]} className="custom-class" />
       </section>
       <section id="faq" className="bg-[#FCFCFC] py-18">
         <RegularFAQ items={[
